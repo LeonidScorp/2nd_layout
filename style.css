@@ -132,7 +132,6 @@ header {
 .main {
     margin: 30px 0;
     display: flex;
-
 }
 
 aside {
@@ -224,7 +223,45 @@ a {
 }
 
 footer {
+    color: white;
     height: 220px;
     background-color: #777;
     margin-top: auto;
+}
+
+.footer-left, .footer-right, .footer-contact, .footer-menu{
+    width: 50%;
+}
+
+.footer-left {
+    justify-content: space-between;
+}
+
+.footer-left, .footer-right {
+    display: flex;
+    margin-top: 50px;
+}
+
+.footer-right {
+    justify-content: flex-end;
+}
+
+.footer-dev {
+    display: flex;
+    width: 220px;
+    align-items: flex-start;
+}
+
+.footer-dev-logo {
+    margin-right: 10px;
+}
+
+.footer-dev-caption {
+    height: min-content;
+    margin-top: -6px;
+}
+
+.footer-menu {
+    width: 120px;
+
 }
