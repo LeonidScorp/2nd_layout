@@ -1,0 +1,230 @@
+html, body, div, span, applet, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+a, abbr, acronym, address, big, cite, code,
+del, dfn, em, img, ins, kbd, q, s, samp,
+small, strike, strong, sub, sup, tt, var,
+b, u, i, center,
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td,
+article, aside, canvas, details, embed, 
+figure, figcaption, footer, header, hgroup, 
+menu, nav, output, ruby, section, summary,
+time, mark, audio, video {
+	margin: 0;
+	padding: 0;
+	border: 0;
+	font-size: 100%;
+	font: inherit;
+	vertical-align: baseline;
+}
+article, aside, details, figcaption, figure, 
+footer, header, hgroup, menu, nav, section {
+	display: block;
+}
+body {
+	line-height: 1;
+}
+ol, ul {
+	list-style: none;
+}
+blockquote, q {
+	quotes: none;
+}
+blockquote:before, blockquote:after,
+q:before, q:after {
+	content: '';
+	content: none;
+}
+table {
+	border-collapse: collapse;
+	border-spacing: 0;
+}
+
+body {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    font-family: 'PT Sans', sans-serif;
+    font-size: 14px;
+    line-height: 22px;
+    font-weight: 400;
+    letter-spacing: 0.025em;
+    color: #767676;
+    min-height: 100vh;
+}
+
+footer, .menu, header {
+    min-width: 980px;
+    justify-content: center;
+    display: flex;
+    width: 100%;
+}
+
+.width-container {
+    display: flex;
+    min-width: 980px;
+    width: 980px;
+    padding: 0 10px;
+    justify-content: space-between;
+}
+
+header {
+    height: 230px;
+    align-items: center;
+    background-color: #dcdcdc;
+}
+
+.header-contact {
+    font-family: 'Open Sans Condensed', sans-serif;
+    font-size: 40px;
+    line-height: 46px;
+    font-weight: 300;
+    letter-spacing: 0.025em;
+    color: #767676;
+}
+
+.menu {
+    height: 80px;
+    background-color: #767676;
+}
+
+.main-menu {
+    display: flex;
+    color:white;
+    font-family: 'PT Sans', sans-serif;
+    font-size: 30px;
+    line-height: 1.2;
+    font-weight: 400;
+    letter-spacing: 0.025em;
+    align-items: center;
+    text-decoration: none;
+}
+
+.main-menu a:link, .main-menu a:visited {
+    text-decoration: none;
+    color: white;
+}
+
+.main-menu a:hover {
+    border-bottom: solid white 2px;
+    color: white;
+}
+
+.main-menu li {
+    margin: 0 7px
+}
+
+.empty {
+    width: 2px;
+    height: 30px;
+    background-color: #fff;
+}
+
+.slider {
+    height: 462px;
+    margin-top: -62px;
+    background-image: url(/images/bg.png);
+    width: 1248px;
+    z-index: -1;
+}
+
+.main {
+    margin: 30px 0;
+    display: flex;
+
+}
+
+aside {
+    width: 350px;
+    color: white;
+    background-color: #777777;
+    display: flex;
+    flex-direction: column;
+    height: min-content;
+}
+
+aside h3 {
+    font-family: 'PT Sans', sans-serif;
+    font-size: 40px;
+    line-height: 46px;
+    font-weight: 700;
+    letter-spacing: 0.025em;
+    color: #ffffff;
+    margin-left: 36px;
+    margin-top: 22px;
+}
+
+aside .articles{
+    font-size: 14px;
+    line-height: 22px;
+    font-weight: 400;
+    margin: 38px 52px 30px 33px;
+}
+
+aside .article-date {
+    font-style: italic;
+}
+
+aside .article-title {
+    font-style: normal;
+}
+
+.content-main-container {
+    width: 570px;
+    margin-left: 60px;
+}
+
+aside .articles a:link, aside .articles a:visited {
+    color: white;
+    text-decoration: none;
+}
+
+aside .articles a:hover {
+    text-decoration: underline;
+}
+
+aside .article {
+    margin-bottom: 20px;
+}
+
+.archive {
+    align-self: flex-end;
+    margin-right: 52px;
+    margin-bottom: 100px;
+}
+
+.archive a:link, .archive a:visited {
+    text-decoration: underline;
+    color: white;
+}
+
+a {
+    color:white;
+}
+
+.text {
+    font-family: 'PT Sans', sans-serif;
+    font-size: 14px;
+    line-height: 22px;
+    font-weight: 400;
+    letter-spacing: 0.025em;
+    color: #767676;
+}
+
+.content-main-container h2 {
+    font-size: 40px;
+    margin-top: 20px;
+    margin-bottom: 40px;
+}
+
+.text p {
+    margin: 20px 0;
+    text-align: justify;
+}
+
+footer {
+    height: 220px;
+    background-color: #777;
+    margin-top: auto;
+}
